@@ -1,0 +1,22 @@
+{
+  "name": "find-country-by-name",
+  "version": "1.0.0",
+  "description": "API for working with country data.",
+  "main": "handler.js",
+  "scripts": {
+    "test": "mocha",
+    "run": "node run.js"
+  },
+  "author": "Jonathan Lloyd",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "mongoose": "^5.0.16",
+    "mongoose-string-query": "^0.2.5",
+    "mongoose-timestamp": "^0.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "sinon": "^4.5.0"
+  }
+}
